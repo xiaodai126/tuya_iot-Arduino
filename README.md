@@ -74,6 +74,15 @@ WS2812灯珠的驱动，需要用到相应的库文件，可以直接在Arduino 
 完成以上两步的测试，那这个项目基本功能就没问题了，只需要把以上的两个程序整合起来就可以了。
 在编写实际项目程序时，建议采用涂鸦库中“DataPointType”来修改，修改程序时将会需要用到在涂鸦上穿件产品时候生成的完整的开发资料，里面有你所添加的所有DP点的数据类型，DP的名称等相关的信息定义，直接复制来替换掉“DataPointType”示例中的对应部分即可。
 至于灯的显示相关，就看你的审美了，难度几乎为零。
+
+![01.jpg](https://images.tuyacn.com/developer/community/1624849365ac51b712cb3.jpg)
+![02.jpg](https://images.tuyacn.com/developer/community/16248495237cf4d8822c0.jpg)
+![03.jpg](https://images.tuyacn.com/developer/community/16248495376b158ba5906.jpg)
+![04.jpg](https://images.tuyacn.com/developer/community/162484955347db4d446a9.jpg)
+![05.jpg](https://images.tuyacn.com/developer/community/1624849565885aefd05e1.jpg)
+![06.jpg](https://images.tuyacn.com/developer/community/16248495787b7f00fac53.jpg)
+![07.jpg](https://images.tuyacn.com/developer/community/16248495907cb9d54a544.jpg)
+
 ### 遇到的问题
 ####PCB布局问题：
 粗心大意把电源开关，两个USB接口放到了顶层；重大错误的把配网按键的方向放反了，造成顶板左边不是规整的形状，而且顶板不能紧贴灯珠。可以把以上提到的元件摆放到背面去，让顶层只有WS2812灯珠，整体效果会好很多，后面版本再改了。
